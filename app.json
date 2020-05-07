@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "tasks",
+    "slug": "tasks",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "",
+    "androidStatusBar": {
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "package": "com.petruspierre.tasks",
+      "versionCode": 1,
+      "permissions": [],
+      "icon": "./assets/icon.png"
+    }
+  }
+}
